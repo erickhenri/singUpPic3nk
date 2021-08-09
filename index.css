@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    /* Variáveis */
+    --green-light: #72ECAA;
+    --grey: #9C9C9C;
+
+    /* Formatação */
+    font-size: 62.5%;
+}
+
+.sr-only{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;    
+
+}
+
+body{
+    background: #F5F5F5;
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Poppins', sans-serif;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section{
+
+    box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    
+    display: grid;
+    grid-template-columns: 30.4rem 64rem;
+    grid-template-rows: 58.3rem;
+    align-content: center;
+    justify-content: center;
+
+    border-radius: 1.6rem;
+
+}
+
+/* =========== Side-bar =========== */
+
+#side-bar{
+    background: var(--green-light);
+    color: white;
+
+    border-radius: 1.6rem 0 0 1.6rem;
+
+}
+
+header img{
+    max-width: 8.048rem;
+    height: auto;
+
+    margin-top: 8.9rem;
+    margin-left: 7.25rem;
+    margin-bottom: 11.28rem;
+}
+
+.content{
+    margin-left: 6.4rem;
+    margin-right: 6.4rem;
+
+}
+
+.content h2{
+    font-weight: 900;
+    font-size: 2.4rem;
+
+    margin-bottom: 1.1rem;
+}
+
+.content p{
+    font-weight: 500;
+    font-size: 1.4rem;
+
+    margin-bottom: 4.1rem;
+}
+
+button{
+    background: var(--green-light);
+    color: white;
+
+    font-weight: 800;
+    font-size: 1.4rem;
+
+    width: 17.6rem;
+    height: 4.8rem;
+
+    border-radius: 3rem;
+    border: .2rem solid white;
+
+    margin-bottom: 2.5rem;
+}
+
+.content a{
+
+    color: white;
+    margin-bottom: 11rem;
+}
+
+button:hover{
+    cursor: pointer;
+    width: 17.6rem;
+    text-align: center;
+}
+
+
+
+/* =============== form ============= */
+#form{
+    background: white;
+
+    border-radius: 0 1.6rem 1.6rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#form h2{
+    margin-top: 8.8rem;
+    color: var(--green-light);
+    
+    font-size: 2.4rem;
+
+    margin-bottom: 1.1rem;
+}
+
+#form p{
+    color: var(--grey);
+    font-size:1.4rem;
+    margin-bottom: 6.3rem;
+
+}
+form{
+    width: 46.4rem;
+}
+form input{
+    background: #F5F5F5;
+
+    width: 100%;
+    height: 6rem;
+
+    text-align: center;
+    
+    margin-bottom: 1.7rem;
+}
+
+::-webkit-input-placeholder{
+    margin-left: 8rem;
+    color:var(--grey);
+
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+
+}
+
+.button button{
+    margin-top: 1.7rem;
+}
+
