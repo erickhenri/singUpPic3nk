@@ -42,14 +42,23 @@
             <p>Preencha seus dados</p>
 
             <form action="">
-                <label class="sr-only" for="inputNome"><img src="./assets/user.svg" alt=""> Nome</label>
-                <input type="text" id="inputNome" placeholder="Nome">
+                <div class="input">
+                    <img class="icon" src="./assets/user.svg" alt="Ícone de usuário">
+                    <label class="sr-only" for="inputNome"><img src="./assets/user.svg" alt=""> Nome</label>
+                    <input type="text" id="inputNome" placeholder="Nome">
+                </div>
 
-                <label class="sr-only" for="inputEmail">Email</label>
-                <input type="email" id="inputEmail" placeholder="Email">
-
-                <label class="sr-only" for="inputSenha">Senha</label>
-                <input type="password" id="inputSenha" placeholder="Senha">
+                <div class="input">
+                    <img class="icon" src="./assets/letter.svg" alt="ícone de mensagem">
+                    <label class="sr-only" for="inputEmail">Email</label>
+                    <input type="email" id="inputEmail" placeholder="Email">
+                </div>
+                
+                <div class="input">
+                    <img class="icon" src="./assets/padlock.svg" alt="ícone de cadeado">
+                    <label class="sr-only" for="inputSenha">Senha</label>
+                    <input type="password" id="inputSenha" placeholder="Senha">
+                </div>
                 
                 <div class="button">
                     <button>CADASTRAR</button>
